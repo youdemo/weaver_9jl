@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background: #fcfcfc;
+    font-size: 12px;
+}
+img {
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: #CE100A;
+}
+a:hover {
+    color: #FF8400;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix10:after {
+    content: ".";
+    display: block;
+    height: 10px;
+    clear: both;
+    visibility: hidden;
+}
+.h10 {
+    height: 10px;
+}
+.h15 {
+    height: 15px;
+}
+#header {
+    width: 1000px;
+    margin: 0 auto;
+}
+.navBar {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    background: #CE100A;
+    color: #CE100A;
+}
+.nav {
+    position: relative;
+    margin-left: 10%;
+    width: 980px;
+    
+    font-family: "Microsoft YaHei", SimSun, SimHei;
+    font-size: 14px;
+}
+.nav a {
+    color: #fff;
+}
+.nav h3 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.nav .m {
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.nav .s {
+    float: left;
+    width: 3px;
+    text-align: center;
+    color: #D4D4D4;
+    font-size: 12px;
+}
+.nav h3 a {
+    display: block;
+    width: 115px;
+    text-align: center;
+    font-weight: bold;
+}
+.nav .sub {
+    display: none;
+    position: absolute;
+    left: -3px;
+    top: 50px;
+    z-index: 1;
+    width: 117px;
+    border: 1px solid #E6E4E3;
+    border-top: 0;
+    background: #fff;
+}
+.nav .sub li {
+    text-align: center;
+    padding: 0 8px;
+    margin-bottom: -1px;
+}
+.sub2{
+    
+    position: absolute;
+    left: -3px;
+    top: -42px;
+    z-index: 1;
+    width: 117px;
+    border: 1px solid #E6E4E3;
+    border-top: 0;
+    background: #fff;
+}
+.three{
+    position: absolute;
+    left: 120px;
+    width: 220px;
+    
+    
+    
+}
+.nav .sub li a {
+    display: block;
+    border-bottom: 1px solid #E6E4E3;
+    padding: 8px 0;
+    height: 28px;
+    line-height: 28px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav .sub li a:hover {
+    color: #FE7700;
+}
+.nav .block {
+    height: 8px;
+    width: 120px;
+    background: #CE100A;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    overflow: hidden;
+}
+
+/**公共**/
+
+
+/**顶部区域**/
+
+.titleDiv {
+    height: 50px;
+    line-height: 50px;
+    background: #FDF9F0;
+}
+.titleItem {
+    float: left;
+}
+.ecologyDiv {
+    width: 250px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #686767;
+}
+.navDiv {
+    background: url('images/nav.png') no-repeat 0px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 16px;
+}
+.refreshDiv {
+    background: url('images/refresh.png') no-repeat 0px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 16px;
+}
+.searchDiv {
+    background: url('images/search.png') no-repeat 0px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 16px;
+}
+.inputDiv {
+    float: left;
+    margin-left: 20px;
+}
+.searchInput {
+    height: 40px;
+    width: 300px;
+    margin-top: -3px;
+    border: 1px solid #F4F4F4 !important;
+    border-radius: 5px;
+    text-indent: 5px;
+    color: #928888;
+}
+.headImg {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;
+    float: left;
+}
+.namespan {
+    background: url('images/down.png') no-repeat 35px;
+    margin-left: 8px;
+    color: #000000;
+    font-weight: bold;
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+.appcenter {
+    background: url('img/appcenter.png') no-repeat 0px;
+    padding-left: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.backcenter {
+    background: url('img/backcenter.png') no-repeat 0px;
+    padding-left: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.exit {
+    background: url('img/exit.png') no-repeat 0px;
+    padding-left: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.operateDiv {
+    float: right;
+    margin-right: 70px;
+}
+
+/*banner*/
+
+.banner>img {
+    width: 100%
+}
+.slide{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    
+}
+
+
+
+.footer{
+    background-color: #CD100A;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+    color: white;
+    
+}
+

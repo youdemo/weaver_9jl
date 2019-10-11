@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Weax IDE 在线编辑器</title>
+    <!-- 升级浏览器提示弹窗 -->
+    <script>/*@cc_on document.write('\x3Cscript id="_iealwn_js" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); @*/</script>
+    <!-- normalize 样式初始化库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!-- promise-polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+    <!-- 依赖库 - jsoneditor 编辑器-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.32.5/jsoneditor.min.css" integrity="sha256-N25ko0OUE5N/sVQzUsjgwttcbSOoqU+GsxC++bMmypo=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.32.5/jsoneditor.min.js" integrity="sha256-Y6JohAmcUbZplY7e4ovMsaAbi0z1i/eCmKsaAQywpig=" crossorigin="anonymous"></script>
+    <!-- 加载 antd v1.11.2 样式  会模糊-->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/antd/1.11.2/antd.min.css"></link> -->
+    <!-- 加载 antd 样式 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.19.7/antd.min.css" />
+    <!-- 加载 weax 标准 UI库，如需定制秩序在此引入即可 -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/weax@0.1.8/dist/weax.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/weax@0.1.8/dist/weax.min.js"></script> -->
+  <link href="./weax_ide.21027ad1.css" rel="stylesheet"></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" style="height: 100%"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script type="text/javascript" src="./dll/vendor.js"></script><script type="text/javascript" src="./weax_ide.21027ad1.js"></script></body>
+</html>

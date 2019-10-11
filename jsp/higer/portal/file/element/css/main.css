@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: "Microsoft YaHei", "微软雅黑" !important;
+  font-size: 12px;
+}
+/* 美化滚动条样式 */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: transparent;
+  background-color: transparent;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #9d9fa1;
+}
+/*暂无数据统一样式*/
+.nodata {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+}

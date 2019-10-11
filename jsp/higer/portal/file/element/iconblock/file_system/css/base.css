@@ -1,0 +1,43 @@
+﻿html,body {
+	margin: 0px;
+	overflow:hidden;
+}
+* {
+	font-family: 微软雅黑;
+	font-size:12px;
+}
+.level1 {
+	float:left;
+	width:33.3%;
+	height:100%;
+	background-color:#fff;
+	background-size: 42px;
+}
+.level2 {
+	float:left;
+	width:100%;
+    height: 105px;
+    margin-top: 1px;
+    background-size: 42px;
+}
+.level3 {
+	float:left;
+	width:50%;
+	height:100%;
+	background-size: 42px;
+}
+.containerdiv {
+	width:100%;
+	height:200px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	line-height:150px;
+}
+.item {
+	cursor: pointer;
+	display: none;
+    background-position: 50% 30%;
+	background-repeat: no-repeat;
+}

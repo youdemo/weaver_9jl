@@ -1,0 +1,71 @@
+{
+   "baseUrl":"/spa/cube/index.html#/main/cube/search?customid=7512&code=",
+   "list":
+   [
+      {
+         "id":"wte_1o27zv",
+         "title":"各体系通用文件",
+         "icon":"/higer/portal/file/element/uploadImg/90.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/90.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"TY",
+         "color":"#1E90FF"
+      },
+      {
+         "id":"wte_2o27zv",
+         "title":"质量管理体系",
+         "icon":"/higer/portal/file/element/uploadImg/91.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/91.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"ZL",
+         "color":"#00BFFF"
+      },
+      {
+         "id":"wte_3o27zv",
+         "title":"内部控制体系",
+         "icon":"/higer/portal/file/element/uploadImg/92.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/92.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"NK",
+         "color":"#1E90FF"
+      },
+      {
+         "id":"wte_4o27zv",
+         "title":"环境管理体系",
+         "icon":"/higer/portal/file/element/uploadImg/93.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/93.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"HJ",
+         "color":"#00BFFF"
+      },
+      {
+         "id":"wte_5o27zv",
+         "title":"职业健康安全管理体系",
+         "icon":"/higer/portal/file/element/uploadImg/94.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/94.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"AQ",
+         "color":"#1E90FF"
+      },
+      {
+         "id":"wte_6o27zv",
+         "title":"信息安全管理体系",
+         "icon":"/higer/portal/file/element/uploadImg/95.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/95.png\"   target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"XA",
+         "color":"#00BFFF"
+      },
+      {
+         "id":"wte_7o27zv",
+         "title":"国军标体系",
+         "icon":"/higer/portal/file/element/uploadImg/1330.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/1330.png\" \t        target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"JC",
+         "color":"#1E90FF"
+      },
+      {
+         "id":"wte_8o27zv",
+         "title":"特种设备安装质量保证体系",
+         "icon":"/higer/portal/file/element/uploadImg/1416.png",
+         "icon1":"<a href=\"/higer/portal/file/element/uploadImg/1416.png\" \t        target=\"_blank\" rel=\"noopener noreferrer\">预览</a>",
+         "link":"01",
+         "color":"#00BFFF"
+      }
+   ],
+   "model":"3"
+}

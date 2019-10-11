@@ -1,0 +1,206 @@
+* {
+    background-color: #fcfcfc;
+    color: #b81d2b;
+    font-family: "微软雅黑","Microsoft YaHei";
+    border: none;
+    margin: 0px;
+    background-color: white;
+    list-style: none;
+    
+}
+
+.container {
+    /* background-color: #fcfcfc; */
+    background-color: #ececec;
+    width: 100%;
+    /* height: 800px; */
+    height: 1200px;
+}
+
+.card-container,.chart-container{
+    width: 84%;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    top: 40px;
+    border-radius: 5px;
+}
+/* card-01 */
+.content {
+    position: absolute;
+    top:3%;
+    left: 2%;
+    width: 97%;
+    
+}
+.card-container h1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 3%;
+    
+}
+.card-container p {
+    font-size: 14px;
+    font-weight: normal;
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 3%;
+    
+}
+
+#h2-right {
+    margin-left: 10px;
+}
+
+.picture-container {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.picture-container ul {
+    width: 75%;
+}
+.picture-container li {
+    width: 20%;
+    float: left;
+}
+
+.picture-container div {
+    height: 106px;
+    width: 78px;
+    background-color: gray;
+    background-image: url(../img/r1.jpg);
+    float: left;
+}
+.picture-container p {
+    width: 78px;
+    clear: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* card-02 */
+.chart-container {
+    position: absolute;
+    top: 400px;
+
+}
+
+.chart-content {
+    position: absolute;
+    left: 2%;
+    width: 97%;
+    top:15%;
+}
+
+
+
+.chart-container ul {
+    width: 61%;
+    height: 200px;
+    float: left;
+    
+}
+.chart-container .chart-img {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+
+
+.chart-container li {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.chart-container .card {
+    height: 45%;
+    width: 90%;
+    background-color:#b81d2b;
+    
+}
+
+.card.down {
+    margin-top: 10%;
+}
+.chart-container p {
+    color: white;
+    background: transparent;
+    /* background-color: #b81d2b; */
+}
+.card p.type {
+    font-weight: bold;
+    margin-left: 8%;
+    padding-top: 6%;
+    font-size: 12px;
+}
+
+.card p.number {
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -2%;
+    /* line-height: 200%; */
+   
+}
+
+#tablecontainer{ 
+	width: 100%; 
+	height: 100%;
+    margin: 0 auto; 
+    font-size: 12px;
+} 
+.chart-img p {
+    color: #b81d2b;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.card-container-03 {
+    width: 84%;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    top: 765px;
+    border-radius: 5px;
+}
+
+.card-container-03 ul {
+    position: relative;
+    left: 4%;
+    width: 96%;
+    top:10%;
+    height: 250px;
+    padding: 0px;
+}
+.card-container-03 li {
+    width: 30%;
+    height: 100%;
+    /* background-color: #00dede; */
+    list-style: none;
+    float: left;
+}
+
+.card-container-03 li#list-03 {
+    width: 36%;
+}
+
+#tablecontainer-02,#tablecontainer-03,#tablecontainer-04 { 
+	width: 100%; 
+	height: 100%;
+    margin: 0 auto; 
+    font-size: 12px;
+} 
+
+.card-container-03 p{ 
+	color: #b81d2b;
+    text-align: center;
+    /* margin-bottom: 3%; */
+    font-size: 9px;
+    font-weight: bold;
+} 

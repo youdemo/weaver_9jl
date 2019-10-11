@@ -1,0 +1,22 @@
+CREATE OR REPLACE FUNCTION FUN_INSTR_CONTAINS(valA IN VARCHAR2,valB IN VARCHAR2)
+    RETURN NUMBER IS
+    FUNCTIONRESULT NUMBER;
+  strTmp VARCHAR2(4000);
+  l_str VARCHAR2(500);
+  ind NUMBER;
+BEGIN
+  strTmp := valB;
+  FUNCTIONRESULT:=-1;
+  ind:=instr(strTmp,',');
+  WHILE ind>0 LOOP
+     l_str:=substr(strTmp,0,ind-1);--截取第一个逗号分割数据
+     strTmp := substr(strTmp,ind+1);--剩余待处理
+     ind:=instr(strTmp,',');--重新赋值
+     --dbms_output.put_line(ind);
+     SELECT instr(','||valA||',',','||l_str||',') INTO FUNCTIONRESULT FROM dual;
+     --dbms_output.put_line(l_str);
+     --dbms_output.put_line(strTmp);
+     EXIT WHEN FUNCTIONRESULT>0 OR ind=0;
+  END LOOP;
+    RETURN(FUNCTIONRESULT);
+END;

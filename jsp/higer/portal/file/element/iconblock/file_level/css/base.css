@@ -1,0 +1,73 @@
+﻿/* temp14 */
+.wea-temp14-pieChart {
+	position: relative;
+	width: 0;
+	height: 0;
+	top:5px;
+	border-radius: 100px;
+	margin: auto;
+	border-width: 100px;
+	border-style: solid;
+	border-color: #329aff #ffc446 #c4161e #000;
+}
+
+.wea-temp14-circle {
+	display: inline-block;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	color: #000;
+	background-color: #ccc;
+	position: relative;
+	top: -50px;
+	left: -50px;
+	border-radius: 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 16px
+}
+
+.wea-temp14-top {
+	position: absolute;
+	width: 80px;
+	top: -80px;
+	text-decoration: none;
+	left: -40px;
+	color: #fff !important;
+	text-align: center
+}
+
+.wea-temp14-left {
+	position: absolute;
+	width: 20px;
+	top: -30px;
+	left: -78px;
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.wea-temp14-right {
+	position: absolute;
+	width: 20px;
+	top: -30px;
+	left: 67px;
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.wea-temp14-bottom {
+	position: absolute;
+	width: 80px;
+	top: 60px;
+	left: -40px;
+	text-decoration: none;
+	color: #fff !important;
+	text-align: center
+}
+
+/* 公用组件 */
+.wea-temp-shodow {
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px
+		rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12)
+}

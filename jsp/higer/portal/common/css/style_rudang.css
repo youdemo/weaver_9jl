@@ -1,0 +1,235 @@
+
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.banner div {
+    width:200px;
+    height: 10%;
+    background: #CE100A;
+    position: relative;
+    margin-left: 44%;
+    margin-right: auto;
+    top: 85%;
+    border-radius: 5px;
+
+}
+.banner a {
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.time-line {
+    border-width: 1px 1px 1px 1px;
+    border-color: #CE100A;
+    /* border-style: solid; */
+    width: 200px;
+    /* height: 1000px; */
+    float: left;
+    margin-top: 60px;
+}
+
+.part-left,.part-right {
+    width: 50%;
+    float: left;
+    margin: 0 0 0 -100px;
+    height: 1000px;
+    /* background-color: grey; */
+}
+
+.part-right{
+    float: right;
+    margin: 0 -102px 0 0;
+}
+
+.part-left .inner,
+.part-right .inner {
+    /* margin: 0 0 0 101px; */
+    
+}
+
+.dot {
+    width: 200px;
+    height: 20px;
+    background-color:white; 
+    position: absolute;
+}
+
+.dot-outsider {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #CE100A;
+    position:absolute;
+    left: 91px;
+}
+
+.dot-inner {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 16px;
+    
+    top:10%;
+    left: 10%;
+    position: absolute;
+
+}
+
+.dot-inner span {
+    margin-left: 5px;
+    color: #CE100A;
+}
+.dot-inner span#double {
+    margin-left: 1px;
+}
+
+
+
+
+.line {
+    /* background-color: grey; */
+    width: 50%;
+    height: 200px;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-right-color: #B81D2B;
+}
+
+.end-line {
+    height: 290px;
+}
+.end-dot .dot-inner {
+    background-color: #CE100A;
+}
+.step-card {
+    width: 380px;
+    height: 200px;
+    background-color: #ececec;
+    left: 25%;
+    /* position: absolute; */
+    float: right;
+    margin-left: 300px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+    z-index: 1;
+    border-radius: 8px;
+    
+}
+
+.step-card .img {
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/step1.jpg);
+    background-repeat:no-repeat; 
+    float: left;
+    border-radius: 8px 0 0 10px;
+    
+}
+
+.step-card .intro {
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+.step-card p {
+    color: #B81D2B;
+    font-size: 18px;
+    margin-left: 10px;
+    display: inline-block;  
+    margin-top: 21px;
+    font-weight: bold;
+  
+}
+
+.step-card p.p2 {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: lighter;
+    
+    
+}
+
+.step-card.right {
+    /* left: 25%; */
+    /* position: absolute; */
+    float: left;
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+    margin-right: 100px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.step-card.right .img {
+    border-radius: 0 8px 8px 0;
+}
+
+.step-card.right.card-01 {
+    margin-top: 260px;
+    
+}
+.step-card.right.card-01 .img{
+    background-image: url(../img/step2.jpg);
+}
+.step-card.right.card-02 .img{
+    background-image: url(../img/step4.jpg);
+}
+.step-card.right.card-03 .img{
+    background-image: url(../img/step6.jpg);
+}
+.step-card.right.card-04 .img{
+    background-image: url(../img/step8.jpg);
+}
+.step-card.right.card-05 .img{
+    background-image: url(../img/step10.jpg);
+}
+.step-card.right.card-06 .img{
+    background-image: url(../img/step12.jpg);
+}
+.step-card.right.card-07 .img{
+    background-image: url(../img/step14.jpg);
+}
+.step-card.right.card-08 .img{
+    background-image: url(../img/step16.jpg);
+}
+.step-card.card-02 .img{
+    background-image: url(../img/step3.jpg);
+}
+.step-card.card-03 .img{
+    background-image: url(../img/step5.jpg);
+}
+.step-card.card-04 .img{
+    background-image: url(../img/step7.jpg);
+}
+.step-card.card-05 .img{
+    background-image: url(../img/step9.jpg);
+}
+.step-card.card-06 .img{
+    background-image: url(../img/step11.jpg);
+}
+.step-card.card-07 .img{
+    background-image: url(../img/step13.jpg);
+}
+.step-card.card-08 .img{
+    background-image: url(../img/step15.jpg);
+}
+.step-card.card-09 .img{
+    background-image: url(../img/step17.jpg);
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+	<service> 
+        <name>HigerWorkflowService</name>  
+        <namespace>webservices.higer.oa.com.cn</namespace>  
+        <serviceClass>com.higer.oa.webservice.IWorkflowWebService</serviceClass>  
+        <implementationClass>com.higer.oa.webservice.WorkflowWebServiceImpl</implementationClass> 
+    </service>
+</beans>
